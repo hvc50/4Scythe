@@ -10,6 +10,7 @@
 	.st4{fill:#00A4BD;}
 	.st5{fill:#00BDB3;}
 	.st6{fill:#FFFFFF;}
+	.st7{stroke:#000000;stroke-miterlimit:10;}
 </style>
 <g id="Layer_1" class="st0">
 	
@@ -2131,8 +2132,8 @@ xIAlSZIkSQsxYEmSJEnSQgxYkiRJkrQQA5YkSZIkLeT/B2HqTG6WAwpRAAAAAElFTkSuQmCC" transf
 </g>
 <g id="Layer_7">
 	<g>
-		<path d="M265.05,733.2v-71.96H127.25v-65.17l99.79-346.22h73.32L196.49,596.07h68.56V458.26h69.24v137.81h33.26v65.17H334.3v71.96
-			H265.05z"/>
+		<path class="st7" d="M265.05,733.2v-71.96H127.25v-65.17l99.79-346.22h73.32L196.49,596.07h68.56V458.26h69.24v137.81h33.26v65.17
+			H334.3v71.96H265.05z"/>
 	</g>
 </g>
 </svg>
