@@ -1,17 +1,19 @@
 body {
-
     font-family: 'Roboto', sans-serif;
+    /*background-image: url("../website_background_test.jpg");
+    background-size: cover;*/
 }
 
 #logo img {
     width: 8em;
-    padding: .3em;
+    padding: 0.5em 1em 0.5em 1em;
     flex: 0;
 }
 
 nav {
-    background-color: #caf0f8;
-    box-shadow: 0 2px 2px 2px lightgrey;
+    /*background-color: #caf0f8;*/
+    background-color: #001c22;
+    /*box-shadow: 0 2px 2px 2px lightgrey;*/
 
     display: flex;
     align-items: center;
@@ -29,7 +31,35 @@ nav {
 
 .navbar span a {
     text-decoration: none;
-    color: black;
+    /*color: black;*/
+    color: white;
+}
+
+.navbar span a:hover {
+    color: #caf0f8;
+    transition: all 350ms;
+    padding-bottom: 0.05em;
+    box-shadow: 0px 8px 3px -6px #caf0f8;
+}
+
+.navbar span:hover {
+    transform: translateY(-0.2em);
+    transition: all 350ms;
+}
+
+.main-bio-container h1 {
+    color: #001c22;
+    text-align: center;
+    font-size: 3em;
+    padding-top: .1em;
+}
+
+.main-bio-container img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
 }
 
 @media (max-width: 768px) {
@@ -42,5 +72,13 @@ nav {
     .navbar {
         flex-direction: column;
         align-items: center;
+    }
+
+    .navbar span {
+        padding: .1em 0 .4em 0;
+    }
+
+    .main-bio-container h1 {
+        font-size: 1.75em;
     }
 }
