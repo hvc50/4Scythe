@@ -1,7 +1,46 @@
-img {
-    width: 9em;
+body {
+
+    font-family: 'Roboto', sans-serif;
 }
 
-button {
-    background-color: none;
+#logo img {
+    width: 8em;
+    padding: .3em;
+    flex: 0;
+}
+
+nav {
+    background-color: #caf0f8;
+    box-shadow: 0 2px 2px 2px lightgrey;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-style: black;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+
+}
+
+.navbar span a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
 }
