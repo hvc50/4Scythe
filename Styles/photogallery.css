@@ -1,0 +1,11 @@
+.photo-gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo-gallery-container img {
+    max-width: 25%;
+    margin: 1em 1em 1em 1em;
+}
