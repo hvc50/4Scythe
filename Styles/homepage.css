@@ -6,12 +6,6 @@ body {
     background-color: #00171c;
 }
 
-#logo img {
-    width: 8em;
-    padding: 0.5em 1em 0.5em 1em;
-    flex: 0;
-}
-
 
 @media (max-width: 768px) {
 
