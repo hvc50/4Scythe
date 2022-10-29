@@ -9,12 +9,27 @@ body {
 .photo-gallery-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+
 }
 
-.photo-gallery-container img {
-    max-width: 25em;
-    min-width: 25em;
-    margin: 1em 1em 1em 1em;
+.photo-gallery-container .column {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.photo-gallery-container .column .row img {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .photo-gallery-container {
+        flex-direction: column;
+    }
 }

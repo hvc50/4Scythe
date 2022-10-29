@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /*background-color: rgb(198, 239, 255);*/
+    background-color: #00171c;
+}
+
+.DocumentContainer {
+    text-align: center;
+}
+
+.DocumentContainer .file {
+    padding-top: 2em;
+}
+
+.DocumentContainer .file a {
+    color: white;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.DocumentContainer .file a:hover {
+    color: rgb(32, 178, 170);
+    border-color: rgb(32, 178, 170);
+
+}
